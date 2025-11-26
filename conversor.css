@@ -1,6 +1,6 @@
 body {
     font-family: "Inter", Arial, sans-serif;
-    background: url("img/banderas.jpg") center/cover no-repeat fixed;
+    backgroundcolor:rgba(220,220,220);
     margin: 0;
     padding: 0;
     display: flex;
@@ -122,6 +122,7 @@ button:active {
     font-weight: bold;
     color: #001d63;
 }
+
 
 
 
