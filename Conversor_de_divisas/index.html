@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="conversor.css">
+</head>
+<body>
+
+    <div class="converter">
+        <h2>Conversor de Divisas</h2>
+
+        <div class="row">
+            <input type="number" id="amount" placeholder="Cantidad" min="0" />
+        </div>
+
+        <div class="row">
+            <select id="fromCurrency">
+                <option value="USD">USD - Dólar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="COP">COP - Peso Colombiano</option>
+                <option value="MXN">MXN - Peso Mexicano</option>
+                <option value="ARS">ARS - Peso Argentino</option>
+            </select>
+
+            <span class="arrow">⇆</span>
+
+            <select id="toCurrency">
+                <option value="EUR">EUR - Euro</option>
+                <option value="USD">USD - Dólar</option>
+                <option value="COP">COP - Peso Colombiano</option>
+                <option value="MXN">MXN - Peso Mexicano</option>
+                <option value="ARS">ARS - Peso Argentino</option>
+            </select>
+        </div>
+
+        <button id="convertBtn">Convertir</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="conversor.js"></script>
+</body>
+</html>
